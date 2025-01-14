@@ -11,12 +11,10 @@ function PreFooterAgs(){
                     loop
                     playsInline
                 >
-                    <source src="./src/assets/video-centro.webm" type="video/webm" />
+                    <source src="public\fotos-bento\video\exedra.mp4"  type="video/mp4" />
                     Tu navegador no soporta el elemento de video.
                 </video>
         </div>
-
-
 
         <Divider sx={{ borderColor: '#f9c74f', borderWidth: 2 }}></Divider>     
 
