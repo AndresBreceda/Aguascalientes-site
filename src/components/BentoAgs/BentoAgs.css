@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+  background-color: #000; /* Fondo negro */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+
+}
+
+.bento {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  margin-left: 10%;
+  width: 90%; /* Reduce el ancho del blockquote al 80% del contenedor */
+  margin: 2% 5%; /* Centra el blockquote horizontalmente */
+  padding: 20px; 
+
+}
+
+/* Estilo para cada celda */
+.bento > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000; /* Texto negro */
+  background-color: #ffffff; /* Amarillo brillante */
+  border: 2px solid #fff; /* Bordes blancos */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Animación para el hover */
+.bento > div:hover {
+  background-color: #888888;; /* Cambia a blanco */
+  color: #ffffff; /* Texto amarillo */
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.bento > div> img{
+  width: auto;
+
+}

@@ -1,0 +1,44 @@
+blockquote{
+    width: 80%; /* Reduce el ancho del blockquote al 80% del contenedor */
+    margin: 2% 5%; /* Centra el blockquote horizontalmente */
+    padding: 20px; /* Espaciado interno para el contenido */
+    border-radius: 8px; /* Esquinas redondeadas opcionales */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+
+}
+
+.justificado{
+    text-align: justify; /* Justifica el texto */
+}
+
+.contenedor-top {
+    text-align: center;
+}
+
+.idea {
+    margin: 0 auto; /* Centra horizontalmente el contenido */
+    display: flex;
+    justify-content: space-between; /* Separa el texto y la imagen */
+    align-items: flex-start; /* Alinea la imagen y el texto arriba */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.imganes-barrio {
+    height: auto;
+    border-radius: 8px; /* Esquinas redondeadas opcionales */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    margin-left: auto; /* Empuja las imágenes hacia la derecha */
+}
+
+.idea h3 {
+    margin: 0 0 10px; /* Espaciado inferior para separar del texto */
+    font-size: 1.5em;
+    color: #333; /* Color del título */
+}
+
+.info {
+    font-size: 1em;
+    color: #555; /* Color del texto */
+    line-height: 1.5;
+    max-width: 60%; /* Ajusta el ancho máximo del texto */
+}

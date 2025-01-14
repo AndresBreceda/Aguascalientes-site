@@ -1,0 +1,13 @@
+.video{
+  position: relative;
+  width: 100%; /* Toma todo el ancho del contenedor */
+  max-width: 560px; /* Tamaño máximo */
+  margin: 0 auto; /* Centrar el video */
+  margin-bottom: 2%;
+}
+
+video {
+  width: 100%;
+  height: auto; /* Mantiene la proporción */
+  display: block; /* Evita espacios extra */
+}

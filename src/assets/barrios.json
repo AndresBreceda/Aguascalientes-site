@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "nombre": "Barrio de San Marcos",
+    "informacion": "Conocido por albergar la Feria Nacional de San Marcos, una de las más antiguas y prestigiosas de México. Este barrio tiene sus orígenes en el siglo XVII y fue fundado por indígenas tlaxcaltecas. En él se encuentra el Templo de San Marcos, una joya arquitectónica del siglo XVIII, y el Jardín de San Marcos, un parque icónico rodeado de un hermoso enrejado que data de 1842. También alberga la Plaza de Toros Monumental, inaugurada en 1974, y la Zona Ferial, donde se realizan actividades culturales, artísticas, gastronómicas y espectáculos durante la feria. Este barrio mantiene vivas las tradiciones de Aguascalientes y es un símbolo de la cultura e historia de la región."
+  },
+  {
+    "id": 1,
+    "nombre": "Barrio del Encino",
+    "informacion": "También llamado Barrio de Triana, es uno de los barrios más históricos y culturales de Aguascalientes. Su principal atractivo es el Templo del Encino, una obra arquitectónica construida en el siglo XVIII que alberga al Cristo Negro, una figura de gran devoción religiosa e histórica para los habitantes. Junto al templo se encuentra el Museo José Guadalupe Posada, dedicado al reconocido grabador mexicano, creador de La Catrina y otras obras icónicas del arte popular. Además, este barrio es un punto clave para eventos culturales, como exposiciones, conciertos y festivales que celebran la riqueza artística y la tradición local. Las calles empedradas y la arquitectura colonial añaden un toque pintoresco que lo hace único. En las inmediaciones, los visitantes también pueden disfrutar de restaurantes tradicionales y tiendas de artesanías que reflejan la esencia del lugar."
+  },
+  {
+    "id": 2,
+    "nombre": "Boulevard Luis Donaldo Colosio",
+    "informacion": "Ubicado en la zona norte de Aguascalientes, es conocido por ser una de las arterias principales de la ciudad. A lo largo de este boulevard se encuentran importantes plazas comerciales como Altaria y Galerías, además de una amplia oferta de restaurantes, bares y cafés que lo convierten en un punto de referencia para la vida social y nocturna de los habitantes. Es también una zona clave para el desarrollo urbano, con residenciales exclusivos y servicios de primer nivel."
+  }
+]

@@ -1,0 +1,102 @@
+/* Root colors */
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-gray-light: #f4f4f4;
+    --color-gray-dark: #888888;
+    --color-yellow: #f9c74f;
+    --color-yellow-dark: #ffd600;
+}
+
+header {
+
+    padding: 1%;
+    background-color: var(--color-black);
+    position: fixed; /* Fija la posición en la pantalla */
+    z-index: 1000;
+    width: 100%;
+}
+
+
+.logo {
+    height: 100px; /* Ajusta el tamaño del logo */
+    width: auto;  /* Mantiene la proporción */
+}
+
+/* Navbar links */
+.navbar-links {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Asegura que esté centrado entre el logo y los íconos */
+    color: var(--color-white);
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+    margin: 0 15px;
+    color: var(--color-white);
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: var(--color-yellow-dark);
+}
+
+.navbar-right{
+    padding-right: 100px;
+    align-items: center;
+
+
+}
+
+.navbar-icons a {
+    margin: 0;
+    color: var(--color-white);
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.navbar-icons a:hover {
+    color: var(--color-yellow-dark);
+}
+
+/* Button Noticias */
+.navbar-noticias a {
+    background-color: var(--color-yellow-dark);
+    color: var(--color-black);
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-noticias a:hover {
+    background-color: var(--color-yellow);
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links {
+        margin: 10px 0;
+        justify-content: flex-start;
+    }
+
+    .navbar-right {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+}

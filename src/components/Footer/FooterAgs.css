@@ -1,0 +1,17 @@
+.div-imagen {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .imagen-footer {
+    max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    border-radius: 8px; /* Borde redondeado opcional */
+  }
+  
+  .parrafo-footer {
+    font-size: 14px; /* Ajusta el tamaño del texto */
+    color: #333; /* Color del texto */
+    margin: 0; /* Elimina margen extra */
+  }
