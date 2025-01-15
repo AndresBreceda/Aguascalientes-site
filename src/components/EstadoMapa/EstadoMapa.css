@@ -1,0 +1,12 @@
+.mapa-container {
+    position: relative; /* Contenedor relativo para las imágenes */
+    width: max-content; /* Ajusta el tamaño al contenido */
+}
+
+.estado, .municipio {
+    position: absolute; /* Ambas imágenes se posicionan absolutas dentro del contenedor */
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegúrate de que ambas imágenes tengan el mismo tamaño */
+    height: auto; /* Mantén la proporción */
+}
